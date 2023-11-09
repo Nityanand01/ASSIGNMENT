@@ -1,4 +1,4 @@
-/* nityanand pandey 99999*/
+/* nityanand pandey 8911829*/
 body{
      font: normal normal normal 12px/1.5 Verdana , arial, Helvetica, sans-serif;
      height :100;
@@ -6,6 +6,11 @@ body{
      background-color: hsla(200, 40%, 80%, 0.7);
 
 }
+h1{
+    color: blueviolet;
+    font-size: 30px;
+}
+
 h2{
     font-size: 2rem;
     color: #fc9;
@@ -14,17 +19,45 @@ h2{
 header{
     background-color: hsl(300, 50%, 50%);
 }
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+nav ul li a{
+    border: 2px solid indigo;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 4px;
+}
+nav ul li a:hover{
+    border: 2px solid cornsilk;
+    color: cornsilk;
+    background-color: indigo;
+}
 main{
     float:left;
     width: 65vw;
     background-color: hsl(130, 39%, 58%);
-    height: 60vh;
 }
 aside{
     float: right;
     width: 25vw;
     background-color: hsl(69, 89%, 57%);
     height: 60vh;
+}
+aside ul{
+    list-style-type: square;
+}
+aside li{
+    line-height: 1.5rem;
+    color: rgba(200, 90, 127, 0.5);
+}
+aside a{
+    color: rgba(200, 90, 127, 0.5);
+}
+aside a:hover{
+    color: #f09;
 }
 footer{
     clear: both;
@@ -41,8 +74,29 @@ footer{
 #para2{
     color: rgb(17, 3, 85);
 }
-a:hover{
-    color: #f09;
+form{
+    border: 5px dashed darkblue;
+}
+input[type=text], input[type=email], input[type=submit], select, option{
+    display: block;
+    width: 50%;
+    height: 2em;
+}
+input[type=radio], input[type=checkbox]{
+    height: 2em;
+    width: 2em;
+}
+select, option, label, legend{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+textarea{
+    width: 50%;
+    display: block;
+}
+fieldset{
+    border: none;
 }
 footer p{
     font-size: .75em;
